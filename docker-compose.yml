@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  user-register-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: user-register-frontend
+    ports:
+      - "3000:80"
